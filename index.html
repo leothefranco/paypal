@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+    <script src="https://www.paypal.com/sdk/js?client-id=AQEKlIARwD9VHoLXf-8OUcV6atCzdJjFrbPG-Qbe2uQD7HNoAse1gktDmpmYN3b9zyr4JTUfbJYjqMk4"></script>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div id="container">
+        <div id="buyer-info">
+            <h2>Buyer Information</h2>
+            <form id="buyer-form">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" required><br>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" required><br>
+                <label for="country">Country:</label>
+                <input type="text" id="country" required><br>
+                <label for="state">State:</label>
+                <input type="text" id="state" required><br>
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" required><br>
+                <label for="street">Street:</label>
+                <input type="text" id="street" required><br>
+            </form> 
+        </div>
+        <div id="product">
+            <h2>Water</h2>
+            <img src="water.jpg" alt="water" id="image">
+            <p>Item Number: 12345</p>
+            <p>Price: $10.00</p>
+            <div id="paypal-button-container"></div>
+        </div>
+        
+    </div>          
+    <script src="script.js"></script>
+ </body>
+</html>

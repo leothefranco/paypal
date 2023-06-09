@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#product img {
+    width: 150px; 
+    height: auto;
+}
+
+#paypal-button-container {
+    display: flex;
+    display:block; 
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    align-content: center;
+  }
+  
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product {
+    width: 70%;
+    text-align: center;
+}
+
+#buyer-info {
+
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+#buyer-info {
+    margin-top: 0;
+    width: 30%;
+}
+
+#buyer-info label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#buyer-info input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#buyer-info textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
